@@ -61,13 +61,99 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 ## Learned Image Compression
 > Neural network-based image codecs.
 
-- **`[CVPR 2024]`** [**ELIC: Efficient Learned Image Compression with Unevenly Grouped Space-Channel Context**](https://arxiv.org/abs/2303.10807), He et al.  
-  - *Key Idea*: Advanced entropy modeling with channel-wise context.  
-  - [Code](https://github.com/elic-project) | [Bibtex](./refs.bib#L31-L35)
+### **2014**
+- **`[CoRR 2014]`** [**Auto-encoders: reconstruction versus compression**](https://arxiv.org/abs/1403.7752) 
+  - *Key Idea*: Theoretical exploration of autoencoders for compression by minimizing code length.  
+  - Code: Not Provided
 
-- **`[ICLR 2023]`** [**STF: Spatial-Temporal Feature Compression for Learned Image Coding**](https://arxiv.org/abs/2210.12345), Xu et al.  
-  - *Key Idea*: Joint spatial and channel-wise feature compression.  
-  - [Code](https://github.com/stf-codec) | [Bibtex](./refs.bib#L36-L40)
+---
+
+### **2016**
+- **`[CoRR 2016]`** [**Towards Conceptual Compression**](https://arxiv.org/abs/1604.08772) 
+  - *Key Idea*: Recurrent VAE for latent space learning in conceptual compression.  
+  - Code: Not Provided
+
+- **`[ICLR 2016]`** [**Autoencoding beyond pixels using a learned similarity metric**](https://arxiv.org/abs/1512.09300)
+  - *Key Idea*: KL divergence-based VAE for image generation.  
+  - Code: Not Provided
+
+- **`[ICLR 2016]`** [**Variable Rate Image Compression with Recurrent Neural Networks**](https://arxiv.org/abs/1511.06085) 
+  - *Key Idea*: Adaptive RNN-based compression on Kodak dataset.  
+  - Code: [https://github.com/mr-mikmik/VRIC-RNN](https://github.com/mr-mikmik/VRIC-RNN)
+
+---
+
+### **2017**
+- **`[CVPR 2017]`** [**Full Resolution Image Compression with Recurrent Neural Networks**](https://arxiv.org/abs/1608.05148)  
+  - *Key Idea*: Combines RNN and entropy encoding for high MS-SSIM.  
+  - Code: [https://github.com/1zb/pytorch-image-comp-rnn](https://github.com/1zb/pytorch-image-comp-rnn)
+
+- **`[DCC 2017]`** [**Semantic Perceptual Image Compression using Deep Convolution Networks**](https://arxiv.org/abs/1612.08712)
+  - *Key Idea*: Semantic-aware compression with CNN.  
+  - Code: [https://github.com/iamaaditya/image-compression-cnn](https://github.com/iamaaditya/image-compression-cnn)
+
+---
+
+### **2018**
+- **`[CVPR 2018]`** [**Variational Autoencoder for Low Bit-rate Image Compression**](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w50/Zhou_Variational_Autoencoder_for_CVPR_2018_paper.pdf)
+  - *Key Idea*: Nonlinear encoder + uniform quantizer for low-bitrate compression.  
+  - Code: Not Provided | Bibtex: See [Ref 47]
+
+- **`[NIPS 2018]`** [**Joint Autoregressive and Hierarchical Priors for Learned Image Compression**](https://arxiv.org/abs/1809.02736)
+  - *Key Idea*: Hybrid autoregressive and hierarchical priors for entropy modeling.  
+  - [Code](https://github.com/thekoshkina/learned_image_compression)
+- **`[CVPR 2018]`** [**Deep Image Compression via End-to-End Learning**](https://arxiv.org/abs/1806.01496)
+  - *Key Idea*: End-to-end CNN framework with CLIC 2018 dataset.  
+  - Code: Not Provided
+- **`[NIPS 2018]`** [**Non-local Recurrent Network for Image Restoration**](https://arxiv.org/abs/1806.02919) 
+  - *Key Idea*: Integrates non-local operations with RNN for artifact reduction.  
+  - [Code](https://github.com/Ding-Liu/NLRN)
+---
+
+### **2019**
+- **`[ICCV 2019]`** [**Generative adversarial networks for extreme learned image compression**](https://arxiv.org/abs/1804.02958) 
+  - *Key Idea*: GAN-based compression targeting <0.1 bpp with selective generative modules.  
+  - Code: [GitHub](https://github.com/Justin-Tan/generative-compression)
+
+---
+
+### **2020**
+- **`[WACV 2020]`** [**CompressNet: Generative Compression at Extremely Low Bitrates**](https://arxiv.org/abs/2006.08003) 
+  - *Key Idea*: Combines MSE, adversarial, and layer-wise losses for ultra-low bpp.  
+  - [Code](https://github.com/shubham14/CompressNet)
+
+- **`[ICIP 2020]`** [**Channel-Wise Autoregressive Entropy Models for Learned Image Compression**](https://arxiv.org/abs/2007.08739)
+  - *Key Idea*: Channel-wise autoregressive entropy model for ultra-low bpp (0.01921).  
+  - [Code](https://github.com/tokkiwa/minnen2020)
+
+---
+
+### **2021**
+- **`[TIP 2021]`** [**End-to-End Learnt Image Compression via Non-Local Attention Optimization**](https://ieeexplore.ieee.org/document/9359473)  
+  - *Key Idea*: Non-local attention modules (NLAM) for global context modeling.  
+  - Code: [GitHub](https://github.com/NJUVISION/NIC) | Bibtex: See [Ref 48]
+
+- **`[TCSVT 2021]`** [**Learned Block-based Hybrid Image Compression**](https://arxiv.org/abs/2012.09550)
+  - *Key Idea*: Block-based partitioning to address OOM issues in high-resolution images.  
+  - Code: Not Provided
+
+---
+
+### **2022**
+- **`[CVPR 2022 Oral]`** [**ELIC: Efficient Learned Image Compression with Unevenly Grouped Space-Channel Context**](https://arxiv.org/abs/2203.10886)  
+  - *Key Idea*: Advanced entropy modeling with channel-wise and spatial context grouping.  
+  - [Code](https://github.com/VincentChandelier/ELiC-ReImplemetation) | Bibtex: See [Ref ELIC]
+
+### **2023**
+
+### **2024**
+- **`[CVPR 2024]`** [**ELIC: Efficient Learned Image Compression with Unevenly Grouped Space-Channel Context**](https://arxiv.org/abs/2303.10807)
+  - *Key Idea*: Advanced entropy modeling with channel-wise context.  
+  - [Code](https://github.com/elic-project)
+- **`[ICLR 2024]`** [**Towards Image Compression with Perfect Realism at Ultra-Low Bitrates**](https://arxiv.org/abs/2310.10325)
+  - *Key Idea*: Using Stable Diffusion v2.1 (Rombach et al., CVPR 2022) as latent diffusion model and hence refer to our work as PerCo (SD)
+  - [Code](https://github.com/Nikolai10/PerCo)
+
 
 
 ---
