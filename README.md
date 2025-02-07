@@ -38,25 +38,97 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 
 ## Hybrid Neural-Traditional Coding
 > Combining neural networks with traditional coding tools (e.g., HEVC/VVC).
+- [Frame Intra Prediction](#frame-intra-prediction)
+- [Frame Inter Prediction](#frame-inter-prediction)
+- [Transform Coding](#transform-coding)
+- [Quantization](#quantization)
+- [Entropy Coding](#entropy-coding)
+- [Loop Filtering](#loop-filtering)
+- [Rate-Distortion Optimization](#rate-distortion-optimization)
+- [Rate Control](#rate-control)
+- [Complexity Control](#complexity-control)
+- [Datasets](#datasets)
+- [Tools](#tools)
+### Frame Intra Prediction
+- **`[TCSVT 2024]`** [**STRANet: soft-target and restriction-aware neural network for efficient VVC intra coding**](https://ieeexplore.ieee.org/abstract/document/10599317) [CODE](https://github.com/cppppp/STRANet)
 
-- **`[IEEE TCSVT 2024]`** [**NVC: Neural Video Coding with Hybrid Spatial-Temporal Priors**](https://arxiv.org/abs/2305.12345), Wang et al.  
-  - *Key Idea*: Integrate CNN-based in-loop filtering into VVC.  
-  - [Code](https://github.com/nvc-project) | [Bibtex](./refs.bib#L16-L20)
 
-- **`[CVPR 2023]`** [**Neural Intra Prediction for Versatile Video Coding**](https://arxiv.org/abs/2212.10101), Zhang et al.  
-  - *Key Idea*: Replace VVC intra prediction with a CNN-based predictor.  
-  - [Code](https://github.com/neural-intra-vvc) | [Bibtex](./refs.bib#L21-L25)
+- **`[ISCAS 2023]`** [**Ultra-Lightweight CNN Based Fast Intra Prediction for VVC Screen Content Coding**](https://doi.org/10.1109/ISCAS46773.2023.10181706) [CODE]()
+- **`[TCSVT 2023]`** [**Machine Learning Based Efficient QT-MTT Partitioning Scheme for VVC Intra Encoders**](https://ieeexplore.ieee.org/abstract/document/10004946) [CODE](https://alexandretissier.github.io/QTMTT_VVC/)
+- **`[TCSVT 2023]`** [**Deep Multi-Task Learning Based Fast Intra-Mode Decision for Versatile Video Coding**](https://ieeexplore.ieee.org/document/10083102) [CODE]()
+- **`[TIP 2023]`** [**Partition Map Prediction for Fast Block Partitioning in VVC Intra-Frame Coding**](https://ieeexplore.ieee.org/abstract/document/10102791) [CODE](https://github.com/AolinFeng/PMP-VVC-TIP2023)
 
----
 
-## Perceptual Video Coding
-> Human visual system (HVS)-aware optimization.
+- **`[TMM 2022]`** [**Fast Intra Mode Decision Algorithm for Versatile Video Coding**](https://dl.acm.org/doi/10.1109/TMM.2021.3052348) [CODE]()
+- **`[TMM 2022]`** [**Efficient VVC Intra Prediction Based on Deep Feature Fusion and Probability Estimation**](https://ieeexplore.ieee.org/abstract/document/9899414) [CODE]()
+- **`[VCIP 2022]`** [**Autoencoder-based intra prediction with auxiliary feature**](https://doi.org/10.1109/VCIP56404.2022.10008846) [CODE]()
+- **`[VCIP 2022]`** [**Neural Frank-Wolfe Policy Optimization for Region-of-Interest Intra-Frame Coding with HEVC/H.265**](https://doi.org/10.1109/VCIP56404.2022.10008853) [CODE]()
+- **`[PCS 2022]`** [**Effective VVC Intra Prediction Based on Ensemble Learning**](https://doi.org/10.1109/PCS56426.2022.10018067) [CODE]()
+- **`[TCSVT 2022]`** [**HG-FCN: Hierarchical Grid Fully Convolutional Network for Fast VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/9691378) [CODE]()
+- **`[TCSVT 2022]`** [**Configurable Fast Block Partitioning for VVC Intra Coding Using Light Gradient Boosting Machine**](https://ieeexplore.ieee.org/document/9524713) [CODE]()
+- **`[DCC 2022]`** [**Graph-based Transform based on 3D Convolutional Neural Network for Intra-Prediction of Imaging Data**](https://doi.org/10.1109/DCC52660.2022.00029) [CODE]()
+- **`[2022]`** [**An efficient low-complexity block partition scheme for VVC intra coding**](https://link.springer.com/article/10.1007/s11554-021-01174-z) [CODE](https://github.com/csust-sonie/fastVVC_RTIP_2107)
 
-- **`[ICML 2023]`** [**Perceptual Rate-Distortion Optimization for Learned Video Compression**](https://arxiv.org/abs/2302.07889), Liu et al.  
-  - *Key Idea*: Adversarial training with perceptual loss.  
-  - [Code](https://github.com/perceptual-vc) | [Bibtex](./refs.bib#L26-L30)
 
----
+- **`[PCS 2021]`** [**Contour-based Intra Coding Using Gaussian Processes and Neural Networks**](https://doi.org/10.1109/PCS50896.2021.9477500) [CODE]()
+- **`[VCIP 2021]`** [**Learning-Based Complexity Reduction Scheme for VVC Intra-Frame Prediction**](https://doi.org/10.1109/VCIP53242.2021.9675394) [CODE]()
+- **`[ICIP 2021]`** [**Intra To Inter: Towards Intra Prediction for Learning-Based Video Coders Using Optical Flow**](https://doi.org/10.1109/ICIP42928.2021.9506274) [CODE]()
+- **`[TIP 2021]`** [**DeepQTMT: A Deep Learning Approach for Fast QTMT-Based CU Partition of Intra-Mode VVC**](https://doi.org/10.1109/TIP.2021.3083447) [CODE]()
+- **`[DCC 2021]`** [**Fast Partitioning for VVC Intra-Picture Encoding with a CNN Minimizing the Rate-Distortion-Time Cost**](https://ieeexplore.ieee.org/abstract/document/9418763) [CODE]()
+
+- **`[TMM 2020]`** [**Fast Multi-Type Tree Partitioning for Versatile Video Coding Using a Lightweight Neural Network**](https://ieeexplore.ieee.org/document/9277576) [CODE]()
+- **`[ICIP 2020]`** [**CNN Oriented Complexity Reduction Of VVC Intra Encoder**](https://ieeexplore.ieee.org/abstract/document/9190797) [CODE]()
+- **`[ICIP 2020]`** [**Chroma Intra Prediction With Attention-Based CNN Architectures**](https://doi.org/10.1109/ICIP40778.2020.9191050) [CODE]()
+- **`[ICIP 2020]`** [**Multi-Mode Intra Prediction for Learning-Based Image Compression**](https://doi.org/10.1109/ICIP40778.2020.9191108) [CODE]()
+- **`[ICIP 2020]`** [**Optimized Convolutional Neural Networks for Video Intra Prediction**](https://doi.org/10.1109/ICIP40778.2020.9190713) [CODE]()
+- **`[VCIP 2020]`** [**Introducing Latent Space Correlation to Conditional Autoencoders for Intra Prediction**](https://doi.org/10.1109/VCIP49819.2020.9301806) [CODE]()
+- **`[VCIP 2020]`** [**Fully Neural Network Mode Based Intra Prediction of Variable Block Size**](https://doi.org/10.1109/VCIP49819.2020.9301842) [CODE]()
+- **`[ISCAS 2020]`** [**Fast partitioning decision scheme for versatile video coding intra-frame prediction**](https://ieeexplore.ieee.org/document/9180980) [CODE]()
+- **`[TCSVT 2020]`** [**Low complexity CTU partition structure decision and fast intra mode decision for versatile video coding**](https://ieeexplore.ieee.org/abstract/document/8664144) [CODE]()
+- **`[Multimedia Systems 2020]`** [**Fast CU partition decision for H.266/VVC based on the improved DAG-SVM classifier model**](https://link.springer.com/article/10.1007/s00530-020-00688-z) [CODE]()
+- **`[Multimedia Tools and Applications 2020]`** [**A fast CU size decision algorithm for VVC intra prediction based on support vector machine**](https://link.springer.com/article/10.1007/s11042-020-09401-8) [CODE]()
+
+
+
+- **`[TBC 2019]`** [**Fast HEVC Intra Mode Decision Based on RDO Cost Prediction**](https://ieeexplore.ieee.org/abstract/document/8401532) [CODE]()
+- **`[VCIP 2019]`** [**Adaptive CU Split Decision with Pooling-variable CNN for VVC Intra Encoding**](https://ieeexplore.ieee.org/abstract/document/8965679) [CODE]()
+- **`[TCSVT 2019]`** [**Video Compression Using Generalized Binary Partitioning, Trellis Coded Quantization, Perceptually Optimized Encoding, and Advanced Prediction and Transform Coding**](https://doi.org/10.1109/TCSVT.2019.2945918) [CODE]()
+- **`[TCSVT 2019]`** [**Multi-scale Convolutional Neural Network Based Intra Prediction for Video Coding**](https://doi.org/10.1109/TCSVT.2019.2934681) [CODE]()
+- **`[TCSVT 2019]`** [**CNN-based Intra-Prediction for Lossless HEVC**](https://doi.org/10.1109/TCSVT.2019.2940092) [CODE]()
+- **`[TIP 2019]`** [**Context-adaptive neural network-based prediction for image compression**](https://doi.org/10.1109/TIP.2019.2934565) [CODE]()
+- **`[TCSVT 2019]`** [**A deep convolutional neural network approach for complexity reduction on intra-mode HEVC**](https://ieeexplore.ieee.org/document/8361836) [CODE](https://github.com/wolverinn/HEVC-CU-depths-prediction-CNN)
+- **`[TMM 2019]`** [**Generative Adversarial Network-Based Intra Prediction for Video Coding**](https://doi.org/10.1109/TMM.2019.2924591) [CODE]()
+- **`[TMM 2019]`** [**Enhanced Intra Prediction for Video Coding by Using Multiple Neural Networks**](https://doi.org/10.1109/TMM.2019.2963620) [CODE]()
+- **`[JVCIR 2019]`** [**Intra Mode Prediction for H. 266/FVC Video Coding based on Convolutional Neural Network**](https://doi.org/10.1016/j.jvcir.2019.102686) [CODE]()
+- **`[ISCAS 2019]`** [**CNN-Based Bi-Prediction Utilizing Spatial Information for Video Coding**](https://doi.org/10.1109/ISCAS.2019.8702552) [CODE]()
+- **`[ICASSP 2019]`** [**Nonlinear Prediction of Multidimensional Signals via Deep Regression with Applications to Image Coding**](https://doi.org/10.1109/ICASSP.2019.8683863) [CODE]()
+- **`[ICASSP 2019]`** [**Convolutional neural networks for video intra prediction using cross-component adaptation**](https://doi.org/10.1109/ICASSP.2019.8682846) [CODE]()
+- **`[DCC 2019]`** [**Deep learning based angular intra-prediction for lossless HEVC video coding**](https://doi.org/10.1109/DCC.2019.00091) [CODE]()
+- **`[DCC 2019]`** [**Intra picture prediction for video coding with neural networks**](https://doi.org/10.1109/DCC.2019.00053) [CODE]()
+- **`[ICIP 2019]`** [**Look-Ahead Prediction Based Coding Unit Size Pruning for VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/8803421) [CODE]()
+
+
+- **`[TIP 2018]`** [**Fully Connected Network-Based Intra Prediction for Image Coding**](https://ieeexplore.ieee.org/abstract/document/8319436) [CODE]()
+
+
+- **`[ICME 2017]`** [**A deep convolutional neural network approach for complexity reduction on intra-mode HEVC**](https://ieeexplore.ieee.org/document/8019316) [CODE](https://github.com/wolverinn/HEVC-CU-depths-prediction-CNN)
+
+
+- **`[PCS 2016]`** [**Deep learning-based intra prediction mode decision for HEVC**](https://ieeexplore.ieee.org/abstract/document/7906399) [CODE]()
+
+### Frame Inter Prediction
+### Transform Coding
+### Quantization
+### Entropy Coding
+### Loop Filtering
+### Rate-Distortion Optimization
+### Complexity Control
+- **`[ICIP 2020]`** [**Complexity Analysis Of Next-Generation VVC Encoding And Decoding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
+Complexity Analysis Of Next-Generation VVC Encoding And Decoding
+### Datasets
+### Tools
+
+
 
 ## Learned Image Compression
 > Neural network-based image codecs.
