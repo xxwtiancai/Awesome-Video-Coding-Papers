@@ -50,6 +50,8 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - [Datasets](#datasets)
 - [Tools](#tools)
 ### Frame Intra Prediction
+- **`[VCIP 2024]`** [**Vectorized Angular Intra Prediction for Practical VVC Encoding**](https://ieeexplore.ieee.org/abstract/document/10849848) [CODE]()
+- **`[Multimedia Tools and Applications 2024]`** [**Fast CU partition strategy based on texture and neighboring partition information for Versatile Video Coding Intra Coding**](https://link.springer.com/article/10.1007/s11042-023-16601-5) [CODE]()
 - **`[TCSVT 2024]`** [**STRANet: soft-target and restriction-aware neural network for efficient VVC intra coding**](https://ieeexplore.ieee.org/abstract/document/10599317) [CODE](https://github.com/cppppp/STRANet)
 
 
@@ -57,6 +59,7 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[TCSVT 2023]`** [**Machine Learning Based Efficient QT-MTT Partitioning Scheme for VVC Intra Encoders**](https://ieeexplore.ieee.org/abstract/document/10004946) [CODE](https://alexandretissier.github.io/QTMTT_VVC/)
 - **`[TCSVT 2023]`** [**Deep Multi-Task Learning Based Fast Intra-Mode Decision for Versatile Video Coding**](https://ieeexplore.ieee.org/document/10083102) [CODE]()
 - **`[TIP 2023]`** [**Partition Map Prediction for Fast Block Partitioning in VVC Intra-Frame Coding**](https://ieeexplore.ieee.org/abstract/document/10102791) [CODE](https://github.com/AolinFeng/PMP-VVC-TIP2023)
+- **`[TIP 2023]`** [**Adaptive Chroma Prediction Based on Luma Difference for H.266/VVC**](https://ieeexplore.ieee.org/abstract/document/10316257) [CODE]()
 
 
 - **`[TMM 2022]`** [**Fast Intra Mode Decision Algorithm for Versatile Video Coding**](https://dl.acm.org/doi/10.1109/TMM.2021.3052348) [CODE]()
@@ -75,6 +78,8 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[ICIP 2021]`** [**Intra To Inter: Towards Intra Prediction for Learning-Based Video Coders Using Optical Flow**](https://doi.org/10.1109/ICIP42928.2021.9506274) [CODE]()
 - **`[TIP 2021]`** [**DeepQTMT: A Deep Learning Approach for Fast QTMT-Based CU Partition of Intra-Mode VVC**](https://doi.org/10.1109/TIP.2021.3083447) [CODE]()
 - **`[DCC 2021]`** [**Fast Partitioning for VVC Intra-Picture Encoding with a CNN Minimizing the Rate-Distortion-Time Cost**](https://ieeexplore.ieee.org/abstract/document/9418763) [CODE]()
+- **`[ICMEW 2021]`** [**Open-Source: Attention-Based Neural Networks For Chroma Intra Prediction In Video Coding**](https://ieeexplore.ieee.org/document/9455958) [CODE](https://github.com/bbc/intra-chroma-attentionCNN)
+
 
 - **`[TMM 2020]`** [**Fast Multi-Type Tree Partitioning for Versatile Video Coding Using a Lightweight Neural Network**](https://ieeexplore.ieee.org/document/9277576) [CODE]()
 - **`[ICIP 2020]`** [**CNN Oriented Complexity Reduction Of VVC Intra Encoder**](https://ieeexplore.ieee.org/abstract/document/9190797) [CODE]()
@@ -85,6 +90,7 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[VCIP 2020]`** [**Fully Neural Network Mode Based Intra Prediction of Variable Block Size**](https://doi.org/10.1109/VCIP49819.2020.9301842) [CODE]()
 - **`[ISCAS 2020]`** [**Fast partitioning decision scheme for versatile video coding intra-frame prediction**](https://ieeexplore.ieee.org/document/9180980) [CODE]()
 - **`[TCSVT 2020]`** [**Low complexity CTU partition structure decision and fast intra mode decision for versatile video coding**](https://ieeexplore.ieee.org/abstract/document/8664144) [CODE]()
+- **`[TCSVT 2020]`** [**Deep Learning-Based Chroma Prediction for Intra Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/8664144) [CODE](https://ieeexplore.ieee.org/document/9247080)
 - **`[Multimedia Systems 2020]`** [**Fast CU partition decision for H.266/VVC based on the improved DAG-SVM classifier model**](https://link.springer.com/article/10.1007/s00530-020-00688-z) [CODE]()
 - **`[Multimedia Tools and Applications 2020]`** [**A fast CU size decision algorithm for VVC intra prediction based on support vector machine**](https://link.springer.com/article/10.1007/s11042-020-09401-8) [CODE]()
 
@@ -117,13 +123,124 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[PCS 2016]`** [**Deep learning-based intra prediction mode decision for HEVC**](https://ieeexplore.ieee.org/abstract/document/7906399) [CODE]()
 
 ### Frame Inter Prediction
+- **`[ICMEW 2024]`** [**Adaptive Intra Period Size for Deep Learning-Based Screen Content Video Coding**](https://ieeexplore.ieee.org/abstract/document/10645479) [CODE](https://openi.pcl.ac.cn/OpenDatasets/PKU-SCV)
+- **`[Pattern Recognition 2024]`** [**IBVC: Interpolation-driven B-frame video compression**](https://www.sciencedirect.com/science/article/abs/pii/S0031320324002164) [CODE](https://github.com/ruhig6/IBVC)
+- **`[TIP 2024]`** [**Spatio-Temporal Convolutional Neural Network for Enhanced Inter Prediction in Video Coding**](https://ieeexplore.ieee.org/document/10648618) [CODE]()
+- **`[MMsys 2024]`** [**Inter-Frame Parallelization in an Open Optimized VVC Encoder**](https://dl.acm.org/doi/abs/10.1145/3625468.3647624) [CODE]()
+
+
+
+- **`[AAAI 2023]`** [**Video Compression Artifact Reduction by Fusing Motion Compensation and Global Context in a Swin-CNN Based Parallel Architecture**](https://ojs.aaai.org/index.php/AAAI/article/view/25458) [CODE](https://github.com/WilliammmZ/AutoVQE)
+- **`[ICASSP 2023]`** [**Learned Video Coding with Motion Compensation Mixture Model**](https://doi.org/10.1109/ICASSP49357.2023.10094757) [CODE]()
+- **`[DCC 2023]`** [**Butterfly: Multiple Reference Frames Feature Propagation Mechanism for Neural Video Compression**](https://doi.org/10.1109/DCC55655.2023.00028) [CODE]()
+
+
+- **`[TCSVT 2022]`** [**Neural Network-Based Enhancement to Inter Prediction for Video Coding**](https://doi.org/10.1109/TCSVT.2021.3063165) [CODE]()
+- **`[TCSVT 2022]`** [**Deep Affine Motion Compensation Network for Inter Prediction in VVC**](https://doi.org/10.1109/TCSVT.2021.3107135) [CODE]()
+- **`[TIP 2022]`** [**Neural Reference Synthesis for Inter Frame Coding**](https://doi.org/10.1109/TIP.2021.3134465) [CODE]()
+- **`[VCIP 2022]`** [**Deep Reference Frame Interpolation based Inter Prediction Enhancement for Versatile Video Coding**](https://doi.org/10.1109/VCIP56404.2022.10008890) [CODE]()
+- **`[VCIP 2022]`** [**Deep Reference Frame Interpolation based Inter Prediction Enhancement for Versatile Video Coding**](https://doi.org/10.1109/VCIP56404.2022.10008890) [CODE]()
+- **`[ICIP 2022]`** [**Intra-Inter Prediction for Versatile Video Coding Using a Residual Convolutional Neural Network**](https://ieeexplore.ieee.org/document/9897324) [CODE]()
+
+
+- **`[DCC 2021]`** [**Bi-Prediction Enhancement with Deep Frame Prediction Network for Versatile Video Coding**](https://doi.org/10.1109/DCC50243.2021.00054) [CODE]()
+- **`[DCC 2021]`** [**Deformable Convolution Network based Invertibility-Driven Interpolation Filter for HEVC**](https://doi.org/10.1109/DCC50243.2021.00069) [CODE]()
+- **`[ICIP 2021]`** [**Deep Video Compression for Interframe Coding**](https://doi.org/10.1109/ICIP42928.2021.9506275) [CODE]()
+- **`[VCIP 2021]`** [**Deep Inter Prediction via Reference Frame Interpolation for Blurry Video Coding**](https://doi.org/10.1109/VCIP53242.2021.9675429) [CODE]()
+- **`[PCS 2021]`** [**Switchable Motion Models for Non-Block-Based Inter Prediction in Learning-Based Video Coding**](https://doi.org/10.1109/PCS50896.2021.9477475) [CODE]()
+- **`[ICCV 2021]`** [**Extending Neural P-frame Codecs for B-frame Coding**](https://doi.org/10.1109/ICCV48922.2021.00661) [CODE]()
+- **`[TCSVT 2021]`** [**Motion Vector Coding and Block Merging in the Versatile Video Coding Standard**](https://ieeexplore.ieee.org/document/9502124) [CODE]()
+- **`[TCSVT 2021]`** [**Subblock-Based Motion Derivation and Inter Prediction Refinement in the Versatile Video Coding Standard**](https://ieeexplore.ieee.org/document/9499051) [CODE]()
+
+- **`[TCSVT 2020]`** [**Convolutional Neural Network Based Bi-prediction Utilizing Spatial and Temporal Information in Video Coding**](https://doi.org/10.1109/TCSVT.2019.2954853) [CODE]()
+- **`[TCSVT 2020]`** [**A Robust Quality Enhancement Method Based on Joint Spatial-Temporal Priors for Video Coding**](https://doi.org/10.1109/TCSVT.2020.3019919) [CODE]()
+- **`[TCSVT 2020]`** [**Compression Priors Assisted Convolutional Neural Network for Fractional Interpolation**](https://doi.org/10.1109/TCSVT.2020.3011197) [CODE]()
+- **`[TCSVT 2020]`** [**Deep Network-Based Frame Extrapolation With Reference Frame Alignment**](https://doi.org/10.1109/TCSVT.2020.2995243) [CODE]()
+- **`[TCSVT 2020]`** [**A Distortion-Aware Multi-task Learning Framework for Fractional Interpolation in Video Coding**](https://doi.org/10.1109/TCSVT.2020.3028330) [CODE]()
+- **`[TCSVT 2020]`** [**Neural Video Coding Using Multiscale Motion Compensation and Spatiotemporal Context Model**](https://doi.org/10.1109/TCSVT.2020.3035680) [CODE]()
+- **`[TIP 2020]`** [**Optical Flow Based Co-Located Reference Frame for Video Compression**](https://doi.org/10.1109/TIP.2020.3014723) [CODE]()
+- **`[CVPR Workshops 2020]`** [**Joint Motion and Residual Information Latent Representation for P-Frame Coding**](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/da_Silva_Joint_Motion_and_Residual_Information_Latent_Representation_for_P-Frame_Coding_CVPRW_2020_paper.pdf) [CODE]()
+- **`[CVPR Workshops 2020]`** [**P-Frame Coding Proposal by NCTU: Parametric Video Prediction Through Backprop-Based Motion Estimation**](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Ho_P-Frame_Coding_Proposal_by_NCTU_Parametric_Video_Prediction_Through_Backprop-Based_CVPRW_2020_paper.pdf) [CODE]()
+- **`[ISCAS 2020]`** [**Memory-Augmented Auto-Regressive Network for Frame Recurrent Inter Prediction**](https://doi.org/10.1109/ISCAS45731.2020.9180452) [CODE]()
+- **`[ICIP 2020]`** [**Interpreting CNN for Low Complexity Learned Sub-pixel Motion Compensation in Video Coding**](https://doi.org/10.1109/ICIP40778.2020.9191193) [CODE]()
+- **`[ICIP 2020]`** [**Deep Virtual Reference Frame Generation For Multiview Video Coding**](https://doi.org/10.1109/ICIP40778.2020.9191112) [CODE]()
+- **`[VCIP 2020]`** [**Deep Inter Coding with Interpolated Reference Frame for Hierarchical Coding Structure**](https://doi.org/10.1109/VCIP49819.2020.9301769) [CODE]()
+- **`[ICMEW 2020]`** [**CNN-Based Inter Prediction Refinement for AVS3**](https://ieeexplore.ieee.org/document/9106017) [CODE]()
+
+
+
+- **`[TCSVT 2019]`** [**Deep frame prediction for video coding**](https://doi.org/10.1109/TCSVT.2019.2924657) [CODE]()
+- **`[TCSVT 2019]`** [**A Multi-Scale Position Feature Transform Network for Video Frame Interpolation**](https://doi.org/10.1109/TCSVT.2019.2939143) [CODE]()
+- **`[TIP 2019]`** [**Three-Zone Segmentation-Based Motion Compensation for Video Compression**](https://doi.org/10.1109/TIP.2019.2910382) [CODE]()
+- **`[TMM 2019]`** [**Deep reference generation with multi-domain hierarchical constraints for inter prediction**](https://doi.org/10.1109/TMM.2019.2961504) [CODE]()
+- **`[ISCAS 2019]`** [**Switch mode based deep fractional interpolation in video coding**](https://doi.org/10.1109/ISCAS.2019.8702522) [CODE]()
+- **`[ISCAS 2019]`** [**CNN-Based Bi-Prediction Utilizing Spatial Information for Video Coding**](https://ieeexplore.ieee.org/document/8702552) [CODE]()
+- **`[DCC 2019]`** [**Deep frame interpolation for video compression**](https://doi.org/10.1109/DCC.2019.00068) [CODE]()
+- **`[ICIP 2019]`** [**Advanced cnn based motion compensation fractional interpolation**](https://doi.org/10.1109/ICIP.2019.8804199) [CODE]()
+- **`[PCS 2019]`** [**HEVC Inter Coding using Deep Recurrent Neural Networks and Artificial Reference Pictures**](https://doi.org/10.1109/PCS48520.2019.8954497) [CODE]()
+- **`[PCS 2019]`** [**An Extended Skip Strategy for Inter Prediction**](https://doi.org/10.1109/PCS48520.2019.8954532) [CODE]()
+- **`[PCS 2019]`** [**Recent development of AVS video coding standard: AVS3**](https://ieeexplore.ieee.org/document/8954503) [CODE]()
+
+
+- **`[TCSVT 2018]`** [**Enhanced Bi-Prediction With Convolutional Neural Network for High-Efficiency Video Coding**](https://ieeexplore.ieee.org/document/8493529) [CODE]()
+- **`[TCSVT 2018]`** [**Triple-Frame-Based Bi-Directional Motion Estimation for Motion-Compensated Frame Interpolation**](https://doi.org/10.1109/TCSVT.2018.2840842) [CODE]()
+- **`[TCSVT 2018]`** [**Weighted Convolutional Motion-Compensated Frame Rate Up-Conversion Using Deep Residual Network**](https://doi.org/10.1109/TCSVT.2018.2885564) [CODE]()
+
+
+
 ### Transform Coding
+- **`[DCC 2024]`** [**Decoder-side Secondary Transform Derivation for Video Coding beyond AVS3**](https://ieeexplore.ieee.org/abstract/document/10533834) [CODE]()
+- **`[DCC 2024]`** [**Construction of Fast Data-driven Transforms for Image Compression via Multipath Coordinate Descent on Orthogonal Matrix Manifold**](https://ieeexplore.ieee.org/abstract/document/10533826) [CODE]()
+- **`[ICASSP 2024]`** [**Adaptive Secondary Transform Sets for Video Coding Beyond AV1**](https://ieeexplore.ieee.org/abstract/document/10447533) [CODE]()
+- **`[ICCCAS 2024]`** [**A Fast Transform Algorithm for VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/9825469) [CODE]()
+- **`[ACM TOM 2024]`** [**Graph Based Cross-Channel Transform for Color Image Compression**](https://dl.acm.org/doi/abs/10.1145/3631710) [CODE]()
+- **`[TCSVT 2024]`** [**Revisiting All-Zero Block Detection for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10378712) [CODE]()
+- **`[TCSVT 2023]`** [**Learning-Based Early Transform Skip Mode Decision for VVC Screen Content Coding**](https://ieeexplore.ieee.org/abstract/document/10068735) [CODE]()
+- **`[ISCAS 2023]`** [**High-Throughput Design for a Multi-Size DCT-II Targeting the AV1 Encoder**](https://ieeexplore.ieee.org/abstract/document/10181828) [CODE]()
+- **`[ISCAS 2022]`** [**A High-Throughput Design for the H.266/VVC Low-Frequency Non-Separable Transform**](https://ieeexplore.ieee.org/abstract/document/9937597) [CODE]()
+- **`[ICIP 2021]`** [**Machine-Learning Based Secondary Transform for Improved Image Compression in JPEG2000**](https://doi.org/10.1109/ICIP42928.2021.9506122) [CODE]()
+- **`[DCC 2021]`** [**Graph Based Transforms based on Graph Neural Networks for Predictive Transform Coding**](https://doi.org/10.1109/DCC50243.2021.00079) [CODE]()
+- **`[PCS 2021]`** [**Combined neural network-based intra prediction and transform selection**](https://doi.org/10.1109/PCS50896.2021.9477455) [CODE]()
+- **`[TCSVT 2021]`** [**Transform Coding in the VVC Standard**](https://ieeexplore.ieee.org/abstract/document/9449858) [CODE]()
+- **`[ICIP 2020]`** [**Augmenting JPEG2000 With Wavelet Coefficient Prediction**](https://doi.org/10.1109/ICIP40778.2020.9190969) [CODE]()
+- **`[VCIP 2020]`** [**Deep Learning-Based Nonlinear Transform for HEVC Intra Coding**](https://doi.org/10.1109/VCIP49819.2020.9301790) [CODE]()
+
+
+
 ### Quantization
+- **`[TBC 2023]`** [**Complexity-Efficient Dependent Quantization for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10093119) [CODE]()
+
+- **`[ICIP 2022]`** [**Learning Frequency-Specific Quantization Scaling in VVC for Standard-Compliant Task-Driven Image Coding**](https://doi.org/10.1109/ICIP46576.2022.9897987) [CODE]()
+
+- **`[DCC 2021]`** [**JQF: Optimal JPEG Quantization Table Fusion by Simulated Annealing on Texture Images and Predicting Textures**](https://doi.org/10.1109/DCC50243.2021.00041) [CODE]()
+
+- **`[VCIP 2020]`** [**Towards Quantized DCT Coefficients Restoration for Compressed Images**](https://doi.org/10.1109/VCIP49819.2020.9301794) [CODE]()
+- **`[DCC 2020]`** [**Deep Learning-based Image Compression with Trellis Coded Quantization**](https://doi.org/10.1109/DCC47342.2020.00009) [CODE]()
+- **`[ECCV 2020]`** [**Task-Aware Quantization Network for JPEG Image Compression**](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650307.pdf) [CODE]()
+- **`[DCC 2019]`** [**Hard-Decision Quantization Algorithm Based on Deep Learning in Intra Video Coding**](https://doi.org/10.1109/DCC.2019.00119) [CODE]()
+
 ### Entropy Coding
-### Loop Filtering
+### In-Loop Filtering
+- **`[TMM 2023]`** [**Joint Rate-Distortion Optimization for Video Coding and Learning-Based In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10216325) [CODE]()
+
 ### Rate-Distortion Optimization
+- **`[TMM 2023]`** [**Joint Rate-Distortion Optimization for Video Coding and Learning-Based In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10216325) [CODE]()
+
+### Rate Control
+- **`[TCSVT 2024]`** [**Content-Adaptive Rate Control Method for User-Generated Content Videos**](https://ieeexplore.ieee.org/abstract/document/10734399) [CODE]()
+- **`[TMM 2024]`** [**Content-Adaptive Rate-Distortion Modeling for Frame-Level Rate Control in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
+
+- **`[TMM 2020]`** [**Rate Control Method Based on Deep Reinforcement Learning for Dynamic Video Sequences in HEVC**](https://doi.org/10.1109/TMM.2020.2992968) [CODE]()
+
 ### Complexity Control
+- **`[VCIP 2024]`** [**Fast Machine Learning Aided Intra Mode Decision for Real-Time VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10849874) [CODE]()
+- **`[SPL 2024]`** [**VVC Intra Coding Complexity Optimization Based on Early Skipping of the Secondary Transform**](https://ieeexplore.ieee.org/abstract/document/10382653) [CODE]()
+
+
+- **`[TCSVT 2021]`** [**VVC Complexity and Software Implementation Analysis**](https://ieeexplore.ieee.org/abstract/document/9399488) [CODE]()
 - **`[ICIP 2020]`** [**Complexity Analysis Of Next-Generation VVC Encoding And Decoding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
+
+
 Complexity Analysis Of Next-Generation VVC Encoding And Decoding
 ### Datasets
 ### Tools
