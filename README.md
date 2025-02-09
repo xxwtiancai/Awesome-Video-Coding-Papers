@@ -189,6 +189,8 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 
 
 ### Transform Coding
+- **`[TBC 2024]`** [**Fast Transform Kernel Selection Based on Frequency Matching and Probability Model for AV1**](https://ieeexplore.ieee.org/abstract/document/10479536) [CODE]()
+- **`[PCS 2024]`** [**Nonlinear Transform Coding for VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10566436) [CODE]()
 - **`[DCC 2024]`** [**Decoder-side Secondary Transform Derivation for Video Coding beyond AVS3**](https://ieeexplore.ieee.org/abstract/document/10533834) [CODE]()
 - **`[DCC 2024]`** [**Construction of Fast Data-driven Transforms for Image Compression via Multipath Coordinate Descent on Orthogonal Matrix Manifold**](https://ieeexplore.ieee.org/abstract/document/10533826) [CODE]()
 - **`[ICASSP 2024]`** [**Adaptive Secondary Transform Sets for Video Coding Beyond AV1**](https://ieeexplore.ieee.org/abstract/document/10447533) [CODE]()
@@ -198,19 +200,21 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[TCSVT 2023]`** [**Learning-Based Early Transform Skip Mode Decision for VVC Screen Content Coding**](https://ieeexplore.ieee.org/abstract/document/10068735) [CODE]()
 - **`[ISCAS 2023]`** [**High-Throughput Design for a Multi-Size DCT-II Targeting the AV1 Encoder**](https://ieeexplore.ieee.org/abstract/document/10181828) [CODE]()
 - **`[ISCAS 2022]`** [**A High-Throughput Design for the H.266/VVC Low-Frequency Non-Separable Transform**](https://ieeexplore.ieee.org/abstract/document/9937597) [CODE]()
+- **`[IEEE Journal of Selected Topics in Signal Processing 2021]`** [**Nonlinear Transform Coding**](https://ieeexplore.ieee.org/document/9242247) [CODE]()
 - **`[ICIP 2021]`** [**Machine-Learning Based Secondary Transform for Improved Image Compression in JPEG2000**](https://doi.org/10.1109/ICIP42928.2021.9506122) [CODE]()
 - **`[DCC 2021]`** [**Graph Based Transforms based on Graph Neural Networks for Predictive Transform Coding**](https://doi.org/10.1109/DCC50243.2021.00079) [CODE]()
 - **`[PCS 2021]`** [**Combined neural network-based intra prediction and transform selection**](https://doi.org/10.1109/PCS50896.2021.9477455) [CODE]()
 - **`[TCSVT 2021]`** [**Transform Coding in the VVC Standard**](https://ieeexplore.ieee.org/abstract/document/9449858) [CODE]()
 - **`[ICIP 2020]`** [**Augmenting JPEG2000 With Wavelet Coefficient Prediction**](https://doi.org/10.1109/ICIP40778.2020.9190969) [CODE]()
 - **`[VCIP 2020]`** [**Deep Learning-Based Nonlinear Transform for HEVC Intra Coding**](https://doi.org/10.1109/VCIP49819.2020.9301790) [CODE]()
+- **`[PCS 2019]`** [**Low frequency non-separable transform**](https://ieeexplore.ieee.org/document/8954507) [CODE]()
 
 
 
 ### Quantization
 - **`[TBC 2023]`** [**Complexity-Efficient Dependent Quantization for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10093119) [CODE]()
 
-- **`[ICIP 2022]`** [**Learning Frequency-Specific Quantization Scaling in VVC for Standard-Compliant Task-Driven Image Coding**](https://doi.org/10.1109/ICIP46576.2022.9897987) [CODE]()
+- **`[ICIP 2022]`** [**Learning Frequency-Specific Quantization Scaling in VVC for Standard-Compliant Task-Driven Image Coding**](https://doi.org/10.1109/ICIP46576.2022.9897987) [CODE](https://github.com/FAU-LMS/VCM_scaling_lists)
 
 - **`[DCC 2021]`** [**JQF: Optimal JPEG Quantization Table Fusion by Simulated Annealing on Texture Images and Predicting Textures**](https://doi.org/10.1109/DCC50243.2021.00041) [CODE]()
 
@@ -220,13 +224,124 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[DCC 2019]`** [**Hard-Decision Quantization Algorithm Based on Deep Learning in Intra Video Coding**](https://doi.org/10.1109/DCC.2019.00119) [CODE]()
 
 ### Entropy Coding
+- **`[IET Image Processing 2024]`** [**Dynamic estimator selection for double-bit-range estimation in VVC CABAC entropy coding**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.12980) [CODE]()
+- **`[TCSVT 2021]`** [**Quantization and Entropy Coding in the Versatile Video Coding (VVC) Standard**](https://ieeexplore.ieee.org/abstract/document/9399502) [CODE]()
+- **`[TCSVT 2019]`** [**Convolutional Neural Network-Based Arithmetic Coding for HEVC Intra-Predicted Residues**](https://ieeexplore.ieee.org/document/8756025) [CODE]()
+
+
 ### In-Loop Filtering
+- **`[DCC 2024]`** [**Residual Block Fusion in Low Complexity Neural Network-Based In-loop Filtering for Video Compression**](https://ieeexplore.ieee.org/abstract/document/10533825) [CODE]()
+
+- **`[ICIP 2024]`** [**IN-Loop Filter for Object Mask Coding in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10647608) [CODE]()
+- **`[PCS 2024]`** [**Swin Transformer-Based In-Loop Filter for VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10566453) [CODE]()
+- **`[ACM TOM 2024]`** [**A Reconfigurable Framework for Neural Network Based Video In-Loop Filtering**](https://dl.acm.org/doi/abs/10.1145/3640467) [CODE]()
+- **`[VCIP 2024]`** [**PFT-ILF: In-loop Filter with Partition Feature Transform for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10849854) [CODE]()
+- **`[TIP 2024]`** [**Combining Progressive Rethinking and Collaborative Learning: A Deep Framework for In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/9394795) [CODE](https://dezhao-wang.github.io/PRN-v2/)
+- **`[VCIP 2024]`** [**Fast Adaptive Loop Filter Algorithm Based on the Optimization of Class Merging**](https://ieeexplore.ieee.org/abstract/document/10849852) [CODE]()
+- **`[VCIP 2024]`** [**In-Loop Filtering via Trained Look-Up Tables**](https://ieeexplore.ieee.org/abstract/document/10849824) [CODE]()
+- **`[ICIP 2024]`** [**IN-Loop Filter for Object Mask Coding in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10647608) [CODE]()
+- **`[ICIP 2024]`** [**NN-Based In-Loop Filtering With Inputs Transformed**](https://ieeexplore.ieee.org/abstract/document/10647805) [CODE]()
+- **`[TCSVT 2024]`** [**Neural Network Based Multi-Level In-Loop Filtering for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10577261) [CODE]()
+- **`[TCSVT 2024]`** [**Screen Content-Aware Video Coding through Non-Local Model embedded with Intra-Inter In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10704652) [CODE]()
+- **`[TCSVT 2024]`** [**Area-Efficient Processing Elements-Based Adaptive Loop Filter Architecture With Optimized Memory for VVC**](https://ieeexplore.ieee.org/abstract/document/10136842) [CODE]()
+- **`[Pattern Recognition 2024]`** [**DWT-SALF: Subband Adaptive Neural Network Based In-Loop Filter for VVC Using Cyclic DWT**](https://link.springer.com/chapter/10.1007/978-3-031-78395-1_14) [CODE]()
+- **`[Pattern Recognition 2024]`** [**Progressive Learning Based on QP Distance for Enhancing HOP In-Loop Filter**](https://link.springer.com/chapter/10.1007/978-3-031-78395-1_10) [CODE]()
+- **`[ISCAS 2023]`** [**Towards Next Generation Video Coding: from Neural Network Based Predictive Coding to In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10181462) [CODE]()
+- **`[ICME 2023]`** [**Meta-ILF: In-Loop Filter with Customized Weights For VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10219609) [CODE]()
+- **`[ICML 2023]`** [**Low Complexity Neural Network-Based In-loop Filtering with Decomposed Split Luma-Chroma Model for Video Compression**](https://openreview.net/pdf?id=ZkkjPbx5KG) [CODE]()
+- **`[TCSVT 2023]`** [**Lightweight Multiattention Recursive Residual CNN-Based In-Loop Filter Driven by Neuron Diversity**](https://ieeexplore.ieee.org/abstract/document/10109188) [CODE]()
+- **`[TCSVT 2023]`** [**Deep In-Loop Filtering via Multi-Domain Correlation Learning and Partition Constraint for Multiview Video Coding**](https://ieeexplore.ieee.org/abstract/document/9915617) [CODE]()
+- **`[ICIG 2023]`** [**Content-Adaptive Block Clustering for Improving VVC Adaptive Loop Filtering**](https://link.springer.com/chapter/10.1007/978-3-031-46311-2_34) [CODE]()
+- **`[ACM TOM 2023]`** [**iDAM: Iteratively Trained Deep In-loop Filter with Adaptive Model Selection**](https://dl.acm.org/doi/abs/10.1145/3529107) [CODE]()
+- **`[ICIP 2023]`** [**Lightweight CNN-Based in-Loop Filter for VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10223094) [CODE]()
 - **`[TMM 2023]`** [**Joint Rate-Distortion Optimization for Video Coding and Learning-Based In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10216325) [CODE]()
+- **`[DCC 2023]`** [**A Low Complexity Convolutional Neural Network with Fused CP Decomposition for In-Loop Filtering in Video Coding**](https://doi.org/10.1109/DCC55655.2023.00032) [CODE]()
+- **`[IFTC 2023]`** [**Temporal Dependency-Oriented Deep In-Loop Filter for VVC**](https://link.springer.com/chapter/10.1007/978-981-97-3626-3_9) [CODE]()
+- **`[TMM 2022]`** [**Textural and Directional Information Based Offset In-Loop Filtering in AVS3**](https://ieeexplore.ieee.org/abstract/document/9868111) [CODE]()
+- **`[ICASSP 2022]`** [**Low-Complexity Multi-Model CNN in-Loop Filter for AVS3**](https://ieeexplore.ieee.org/abstract/document/9746146) [CODE]()
+- **`[CVPR 2022]`** [**Perceptual In-Loop Filter for Image and Video Compression**](https://openaccess.thecvf.com/content/CVPR2022W/CLIC/html/Wang_Perceptual_In-Loop_Filter_for_Image_and_Video_Compression_CVPRW_2022_paper.html) [CODE]()
+- **`[ACM TOM 2022]`** [**NR-CNN: Nested-Residual Guided CNN In-loop Filtering for Video Coding**](https://dl.acm.org/doi/abs/10.1145/3502723) [CODE]()
+- **`[ICME 2022]`** [**Neural Network Based in-Loop Filter with Constrained Memory**](https://ieeexplore.ieee.org/abstract/document/9859910) [CODE]()
+- **`[TIP 2022]`** [**Deformable Wiener Filter for Future Video Coding**](https://ieeexplore.ieee.org/document/9948451) [CODE]()
+- **`[TIP 2022]`** [**QA-filter: A QP-adaptive convolutional neural network filter for video coding**](https://ieeexplore.ieee.org/document/9750961) [CODE]()
+- **`[TCE 2022]`** [**Adaptive Loop Filter Hardware Design for 4K ASIC VVC Decoders**](https://ieeexplore.ieee.org/document/9691469) [CODE]()
+- **`[VCIP 2022]`** [**Multi-stage Locally and Long-range Correlated Feature Fusion for Learned In-loop Filter in VVC**](https://doi.org/10.1109/VCIP56404.2022.10008834) [CODE]()
+- **`[ICIP 2022]`** [**Switchable CNN-Based Same-Resolution and Super-Resolution In-Loop Restoration for Next Generation Video Codecs**](https://ieeexplore.ieee.org/document/9897763) [CODE]()
+- **`[ICIP 2022]`** [**Non-Separable Filtering with Side-Information and Contextually-Designed Filters for Next Generation Video Codecs**](https://ieeexplore.ieee.org/document/9898053) [CODE]()
+- **`[ICIP 2022]`** [**Adaptive Loop Filter with a CNN-Based Classification**](https://ieeexplore.ieee.org/document/9897666) [CODE]()
+- **`[PCS 2022]`** [**Efficient HW Design of Adaptive Loop Filter for 4k ASIC VVC Encoder**](https://ieeexplore.ieee.org/abstract/document/10018078) [CODE]()
+- **`[PCS 2022]`** [**Multi-Stage Spatial and Frequency Feature Fusion using Transformer in CNN-Based In-Loop Filter for VVC**](https://doi.org/10.1109/PCS56426.2022.10017998) [CODE]()
+- **`[PCS 2022]`** [**Optimize neural network based in-loop filters through iterative training**](https://doi.org/10.1109/PCS56426.2022.10018057) [CODE]()
+- **`[PCS 2022]`** [**Generalized deblocking filter for AVM**](https://ieeexplore.ieee.org/abstract/document/10018081) [CODE]()
+- **`[ISCAS 2022]`** [**An Attention Based CNN with Temporal Hierarchical Deployment for AVS3 Inter In-loop Filtering**](https://doi.org/10.1109/ISCAS48785.2022.9937718) [CODE]()
+- **`[ISCAS 2022]`** [**Complexity Reduction of Learned In-Loop Filtering in Video Coding**](https://doi.org/10.1109/ISCAS48785.2022.9937777) [CODE]()
+- **`[ISCAS 2022]`** [**A QP-adaptive Mechanism for CNN-based Filter in Video Coding**](https://doi.org/10.1109/ISCAS48785.2022.9937233) [CODE]()
+- **`[ISCAS 2022]`** [**Joint Luma and Chroma Multi-Scale CNN In-loop Filter for Versatile Video Coding**](https://doi.org/10.1109/ISCAS48785.2022.9937419) [CODE]()
+- **`[DCC 2022]`** [**Joint Rate Distortion Optimization with CNN-based In-Loop Filter For Hybrid Video Coding**](https://doi.org/10.1109/DCC52660.2022.00073) [CODE]()
+- **`[DCC 2022]`** [**Parametric Non-local In-loop Filter for Future Video Coding**](https://doi.org/10.1109/DCC52660.2022.00085) [CODE]()
+- **`[DCC 2022]`** [**An Improved Multi-reference Frame Loop Filter Algorithm Based on Transformer for VVC**](https://doi.org/10.1109/DCC52660.2022.00078) [CODE]()
+- **`[JVCIR 2022]`** [**PTR-CNN for in-loop filtering in video coding**](https://doi.org/10.1016/j.jvcir.2022.103615) [CODE]()
+- **`[TCSVT 2022]`** [**One-for-all: An efficient variable convolution neural network for in-loop filter of VVC**](https://ieeexplore.ieee.org/document/9455379) [CODE]()
+- **`[SPIC 2021]`** [**Deep learning based HEVC in-loop filter and noise reduction**](https://www.sciencedirect.com/science/article/abs/pii/S0923596521001946) [CODE]()
+- **`[SPIC 2021]`** [**A progressive CNN in-loop filtering approach for inter frame coding**](https://www.sciencedirect.com/science/article/abs/pii/S0923596521000321) [CODE]()
+- **`[TIP 2021]`** [**Adaptive deep reinforcement learning-based in-loop filter for VVC**](https://ieeexplore.ieee.org/document/9446562) [CODE]()
+- **`[TCSVT 2021]`** [**VVC In-Loop Filters**](https://ieeexplore.ieee.org/abstract/document/9399506) [CODE]()
+- **`[CVPR 2021]`** [**Deep Learning Based Spatial-Temporal In-Loop Filtering for Versatile Video Coding**](https://openaccess.thecvf.com/content/CVPR2021W/CLIC/papers/Pham_Deep_Learning_Based_Spatial-Temporal_In-Loop_Filtering_for_Versatile_Video_Coding_CVPRW_2021_paper.pdf) [CODE]()
+- **`[DCC 2021]`** [**Multi-Density Convolutional Neural Network for In-Loop Filter in Video Coding**](https://doi.org/10.1109/DCC50243.2021.00010) [CODE]()
+- **`[DCC 2021]`** [**An Efficient QP Variable Convolutional Neural Network Based In-loop Filter for Intra Coding**](https://doi.org/10.1109/DCC50243.2021.00011) [CODE]()
+- **`[DCC 2021]`** [**3D-CVQE: An Effective 3D-CNN Quality Enhancement for Compressed Video Using Limited Coding Information**](https://doi.org/10.1109/DCC50243.2021.00050) [CODE]()
+- **`[DCC 2021]`** [**Spatial-Temporal Fusion Convolutional Neural Network for Compressed Video Enhancement in HEVC**](https://doi.org/10.1109/DCC50243.2021.00066) [CODE]()
+- **`[DCC 2021]`** [**Video Enhancement Network Based on Max-Pooling and Hierarchical Feature Fusion**](https://doi.org/10.1109/DCC50243.2021.00067) [CODE]()
+- **`[PCS 2021]`** [**Bonnineau C, Hamidouche W, Travers J F, et al. Multitask Learning for VVC Quality Enhancement and Super-Resolution**](https://doi.org/10.1109/PCS50896.2021.9477492) [CODE]()
+- **`[PCS 2021]`** [**Bordes P, Galpin F, Dumas T, et al. Revisiting the Sample Adaptive Offset post-filter of VVC with Neural-Networks**](https://doi.org/10.1109/PCS50896.2021.9477457) [CODE]()
+- **`[PCS 2021]`** [**Nasiri F, Hamidouche W, Morin L, et al. Model Selection CNN-based VVC QualityEnhancement**](https://doi.org/10.1109/PCS50896.2021.9477473) [CODE]()
+- **`[PCS 2021]`** [**Convolutional neural network-based post-filtering for compressed YUV420 images and video**](https://doi.org/10.1109/PCS50896.2021.9477486) [CODE]()
+- **`[VCIP 2021]`** [**Distortion-based Neural Network for Compression Artifacts Reduction in VVC**](https://doi.org/10.1109/VCIP53242.2021.9675413) [CODE]()
+- **`[ICIP 2021]`** [**Convolutional Neural Network Based In-Loop Filter For VVC Intra Coding**](https://doi.org/10.1109/ICIP42928.2021.9506027) [CODE]()
+- **`[DCC 2021]`** [**Flow-Guided Temporal-Spatial Network for HEVC Compressed Video Quality Enhancement**](https://doi.org/10.1109/DCC50243.2021.00064) [CODE]()
+- **`[DCC 2021]`** [**Densely Connected Unit based Loop Filter for Short Video Coding**](https://doi.org/10.1109/DCC50243.2021.00076) [CODE]()
+- **`[ICIP 2021]`** [**Enhancing quality for VVC compressed videos by jointly exploiting spatial details and temporal structure**](https://doi.org/10.1109/ICIP.2019.8804469) [CODE]()
+- **`[ICIP 2021]`** [**Partition tree guided progressive rethinking network for in-loop filtering of HEVC**](https://doi.org/10.1109/ICIP.2019.8803253) [CODE]()
+- **`[ICIP 2021]`** [**Deep Enhancement for 3D HDR Brain Image Compression**](https://doi.org/10.1109/ICIP.2019.8803781) [CODE]()
+- **`[ICIP 2021]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Development Of New Fractal And Non-Fractal Deep Residual Networks For Deblocking Of Jpeg Decompressed Images**](https://doi.org/10.1109/ICIP40778.2020.9191030) [CODE]()
+- **`[ICIP 2021]`** [**Xia J, Wen J. Asymmetric Convolutional Residual Network for AV1 Intra in-Loop Filtering**](https://doi.org/10.1109/ICIP40778.2020.9190743) [CODE]()
+- **`[ICIP 2021]`** [**Li B, Liang J, Wang Y. Compression Artifact Removal with Stacked Multi-Context Channel-Wise Attention Network**](https://doi.org/10.1109/ICIP.2019.8803448) [CODE]()
+- **`[ICIP 2021]`** [**Kim T, Lee H, Son H, et al. SF-CNN: A Fast Compression Artifacts Removal via Spatial-To-Frequency Convolutional Neural Networks**](https://doi.org/10.1109/ICIP.2019.8803503) [CODE]()
+- **`[ICIP 2021]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Deep Jpeg Image Deblocking Using Residual Maxout Units**](https://doi.org/10.1109/ICIP.2019.8803374) [CODE]()
+- **`[ICME 2020]`** [**Multi-Gradient Convolutional Neural Network Based In-Loop Filter For Vvc**](https://ieeexplore.ieee.org/document/9102826) [CODE]()
+- **`[TCSVT 2020]`** [**A switchable deep learning approach for in-loop filtering in video coding**](https://ieeexplore.ieee.org/document/8801877) [CODE]()
+- **`[VCIP 2020]`** [**Ma H, Liu D, Wu F. Improving Compression Artifact Reduction via End-to-End Learning of Side Information**](https://doi.org/10.1109/VCIP49819.2020.9301805) [CODE]()
+- **`[VCIP 2020]`** [**A Mixed Appearance-based and Coding Distortion-based CNN Fusion Approach for In-loop Filtering in Video Coding**](https://ieeexplore.ieee.org/abstract/document/9301895) [CODE]()
+- **`[VCIP 2020]`** [**Nasiri F, Hamidouche W, Morin L, et al. Prediction-Aware Quality Enhancement of VVC Using CNN**](https://doi.org/10.1109/VCIP49819.2020.9301884) [CODE]()
+- **`[VCIP 2020]`** [**Yue J, Gao Y, Li S, et al. A Mixed Appearance-based and Coding Distortion-based CNN Fusion Approach for In-loop Filtering in Video Coding**](https://doi.org/10.1109/VCIP49819.2020.9301895) [CODE]()
+- **`[VCIP 2019]`** [**Yu Y, Yang X, Chen J, et al. Deep Learning Based In-Loop Filter for Video Coding**](https://doi.org/10.1109/VCIP47243.2019.8965980) [CODE]()
+- **`[ICIP 2020]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Development Of New Fractal And Non-Fractal Deep Residual Networks For Deblocking Of Jpeg Decompressed Images**](https://doi.org/10.1109/ICIP40778.2020.9191030) [CODE]()
+- **`[ICIP 2020]`** [**Li B, Liang J, Wang Y. Compression Artifact Removal with Stacked Multi-Context Channel-Wise Attention Network**](https://doi.org/10.1109/ICIP40778.2020.9191106) [CODE]()
+- **`[ICIP 2020]`** [**Kim T, Lee H, Son H, et al. SF-CNN: A Fast Compression Artifacts Removal via Spatial-To-Frequency Convolutional Neural Networks**](https://doi.org/10.1109/ICIP40778.2020.9191106) [CODE]()
+- **`[ICIP 2020]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Deep Jpeg Image Deblocking Using Residual Maxout Units**](https://doi.org/10.1109/ICIP40778.2020.9191030) [CODE]()
+- **`[ICIP 2019]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Development Of New Fractal And Non-Fractal Deep Residual Networks For Deblocking Of Jpeg Decompressed Images**](https://doi.org/10.1109/ICIP.2019.8803374) [CODE]()
+- **`[ICIP 2019]`** [**Li B, Liang J, Wang Y. Compression Artifact Removal with Stacked Multi-Context Channel-Wise Attention Network**](https://doi.org/10.1109/ICIP.2019.8803448) [CODE]()
+- **`[ICIP 2019]`** [**Kim T, Lee H, Son H, et al. SF-CNN: A Fast Compression Artifacts Removal via Spatial-To-Frequency Convolutional Neural Networks**](https://doi.org/10.1109/ICIP.2019.8803503) [CODE]()
+- **`[ICIP 2019]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Deep Jpeg Image Deblocking Using Residual Maxout Units**](https://doi.org/10.1109/ICIP.2019.8803374) [CODE]()
+- **`[ICIP 2019]`** [**Gao S, Xiong Z. Deep Enhancement for 3D HDR Brain Image Compression**](https://doi.org/10.1109/ICIP.2019.8803781) [CODE]()
+- **`[ICIP 2019]`** [**Meng X, Deng X, Zhu S, et al. Enhancing quality for VVC compressed videos by jointly exploiting spatial details and temporal structure**](https://doi.org/10.1109/ICIP.2019.8804469) [CODE]()
+- **`[ICIP 2019]`** [**Partition tree guided progressive rethinking network for in-loop filtering of HEVC**](https://doi.org/10.1109/ICIP.2019.8803253) [CODE]()
+- **`[ICIP 2019]`** [**Esmaeilzehi A, Ahmad M O, Swamy M N S. Deep Jpeg Image Deblocking Using Residual Maxout Units**](https://doi.org/10.1109/ICIP.2019.880337
+
+
+
+
+
+
 
 ### Rate-Distortion Optimization
+- **`[TIP 2023]`** [**Toward the Achievable Rate-Distortion Bound of VVC Intra Coding: A Beam Search-Based Joint Optimization Scheme**](https://ieeexplore.ieee.org/abstract/document/10304583) [CODE]()
 - **`[TMM 2023]`** [**Joint Rate-Distortion Optimization for Video Coding and Learning-Based In-Loop Filtering**](https://ieeexplore.ieee.org/abstract/document/10216325) [CODE]()
+- **`[TBC 2023]`** [**A Quality-of-Experience-Aware Framework for Versatile Video Coding-Based Video Transmission**](https://ieeexplore.ieee.org/abstract/document/9990901) [CODE]()
+- **`[TIP 2020]`** [**Rate distortion optimization: A joint framework and algorithms for random access hierarchical video coding**](https://ieeexplore.ieee.org/document/9216484) [CODE]()
 
 ### Rate Control
+- **`[TCSVT 2024]`** [**Recent Advances in Rate Control: From Optimization to Implementation and Beyond**](https://ieeexplore.ieee.org/abstract/document/10155441) [CODE]()
 - **`[TCSVT 2024]`** [**Content-Adaptive Rate Control Method for User-Generated Content Videos**](https://ieeexplore.ieee.org/abstract/document/10734399) [CODE]()
 - **`[TMM 2024]`** [**Content-Adaptive Rate-Distortion Modeling for Frame-Level Rate Control in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
 
@@ -235,15 +350,23 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 ### Complexity Control
 - **`[VCIP 2024]`** [**Fast Machine Learning Aided Intra Mode Decision for Real-Time VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10849874) [CODE]()
 - **`[SPL 2024]`** [**VVC Intra Coding Complexity Optimization Based on Early Skipping of the Secondary Transform**](https://ieeexplore.ieee.org/abstract/document/10382653) [CODE]()
+- **`[PCS 2022]`** [**Performance-Complexity Analysis of Adaptive Loop Filter with a CNN-based Classification**](https://ieeexplore.ieee.org/abstract/document/10018032) [CODE]()
 
 
+- **`[IEEE Open Journal of Circuits and Systems 2021]`** [**AV1 and VVC Video Codecs: Overview on Complexity Reduction and Hardware Design**](https://ieeexplore.ieee.org/abstract/document/9536216) [CODE]()
 - **`[TCSVT 2021]`** [**VVC Complexity and Software Implementation Analysis**](https://ieeexplore.ieee.org/abstract/document/9399488) [CODE]()
 - **`[ICIP 2020]`** [**Complexity Analysis Of Next-Generation VVC Encoding And Decoding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
 
-
-Complexity Analysis Of Next-Generation VVC Encoding And Decoding
 ### Datasets
+
 ### Tools
+- **`[TCSVT 2021]`** [**Overview of the Screen Content Support in VVC: Applications, Coding Tools, and Performance**](https://ieeexplore.ieee.org/abstract/document/9408666) [CODE]()
+
+
+### Survey
+- **`[Proceedings of the IEEE 2021]`** [**Developments in International Video Coding Standardization After AVC, With an Overview of Versatile Video Coding (VVC)**](https://ieeexplore.ieee.org/document/9328514) [CODE]()
+
+
 
 
 
