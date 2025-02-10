@@ -340,22 +340,80 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 - **`[TBC 2023]`** [**A Quality-of-Experience-Aware Framework for Versatile Video Coding-Based Video Transmission**](https://ieeexplore.ieee.org/abstract/document/9990901) [CODE]()
 - **`[TIP 2020]`** [**Rate distortion optimization: A joint framework and algorithms for random access hierarchical video coding**](https://ieeexplore.ieee.org/document/9216484) [CODE]()
 
+
+
+
+
 ### Rate Control
+- **`[JVCIP 2024]`** [**Exploring the rate-distortion-complexity optimization in neural image compression☆**](https://www.sciencedirect.com/science/article/abs/pii/S1047320324002505) [CODE]()
+- **`[ISCAS 2024]`** [**Rate Control for Slimmable Video Codec using Multilayer Perceptron**](https://ieeexplore.ieee.org/abstract/document/10558606) [CODE]()
+- **`[TVT 2024]`** [**An Efficient Neural Network Based Rate Control for Intra-frame in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10777536) [CODE]()
+- **`[PCS 2024]`** [**Multi-Agent Reinforcement Learning based Bit Allocation for Gaming Video Coding**](https://ieeexplore.ieee.org/abstract/document/10566434) [CODE]()
+- **`[TIP 2024]`** [**λ-Domain Rate Control via Wavelet-Based Residual Neural Network for VVC HDR Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10736428) [CODE](https://github.com/TJU-Videocoding/WRNN.git)
 - **`[TCSVT 2024]`** [**Recent Advances in Rate Control: From Optimization to Implementation and Beyond**](https://ieeexplore.ieee.org/abstract/document/10155441) [CODE]()
 - **`[TCSVT 2024]`** [**Content-Adaptive Rate Control Method for User-Generated Content Videos**](https://ieeexplore.ieee.org/abstract/document/10734399) [CODE]()
 - **`[TMM 2024]`** [**Content-Adaptive Rate-Distortion Modeling for Frame-Level Rate Control in Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
+- **`[TBC 2024]`** [**Spatial Coupling Strategy and Improved BFGS-Based Advanced Rate Control for VVC**](https://ieeexplore.ieee.org/abstract/document/10819255) [CODE]()
 
+- **`[VCIP 2023]`** [**Reinforcement Learning-based Frame-level Bit Allocation for VVC**](https://ieeexplore.ieee.org/document/10402665) [CODE]()
+- **`[MMSP 2023]`** [**Rate control for VVC intra coding with simplified cubic rate-distortion model**](https://ieeexplore.ieee.org/document/10337686) [CODE]()
+- **`[TIP 2023]`** [**Joint decision tree and visual feature rate control optimization for VVC UHD coding**](https://ieeexplore.ieee.org/document/9979046) [CODE]()
+- **`[TCSVT 2023]`** [**λ -domain VVC rate control based on Nash equilibrium**](https://ieeexplore.ieee.org/document/9996433) [CODE]()
+- **`[TCSVT 2023]`** [**Neural Network Based Rate Control for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10082986) [CODE]()
+- **`[TCSVT 2023]`** [**Efficient Rate Control in Versatile Video Coding With Adaptive Spatial–Temporal Bit Allocation and Parameter Updating**](https://ieeexplore.ieee.org/document/9963963) [CODE]()
+- **`[TCSVT 2023]`** [**A CTU-Level Screen Content Rate Control for Low-Delay Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10041774) [CODE]()
+- **`[TBC 2023]`** [**Precise Encoding Complexity Control for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9829846) [CODE]()
+- **`[VCIP 2023]`** [**Rate Control Optimization for Joint Geometry and Attribute Coding of LiDAR Point Clouds**](https://ieeexplore.ieee.org/abstract/document/10402779) [CODE]()
+- **`[TIP 2023]`** [**SUR-Driven Video Coding Rate Control for Jointly Optimizing Perceptual Quality and Buffer Control**](https://ieeexplore.ieee.org/abstract/document/10266980) [CODE]()
+- **`[Information Sciences 2023]`** [**Rate distortion optimization with adaptive content modeling for random-access versatile video coding**](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009106?via%3Dihub) [CODE]()
+
+
+- **`[MMSP 2022]`** [**Reinforcement Learning based Low Delay Rate Control for HEVC Region of Interest Coding**](https://ieeexplore.ieee.org/abstract/document/9950043) [CODE]()
+- **`[TBC 2022]`** [**Optimum Quality Control Algorithm for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9705090) [CODE]()
+- **`[TIP 2022]`** [**Joint Decision Tree and Visual Feature Rate Control Optimization for VVC UHD Coding**](https://ieeexplore.ieee.org/abstract/document/9979046) [CODE]()
+- **`[TBC 2022]`** [**Perceptual quality consistency oriented CTU level rate control for HEVC intra coding**](https://ieeexplore.ieee.org/document/9586556) [CODE]()
+- **`[TIP 2022]`** [**Learning-Based Rate Control for Video-Based Point Cloud Compression**](https://ieeexplore.ieee.org/document/9720075) [CODE]()
+- **`[ArXiv 2022]`** [**MuZero with Self-competition for Rate Control in VP9 Video Compression**](https://arxiv.org/abs/2202.06626) [CODE]()
+- **`[ArXiv 2022]`** [**λ-domain VVC Rate Control Based on Game Theory**](https://arxiv.org/abs/2205.03595) [CODE]()
+- **`[MIPR 2022]`** [**Machine-Learning Based High Efficiency Rate Control for AV1**](https://ieeexplore.ieee.org/abstract/document/9874608) [CODE]()
+
+- **`[Multimedia Tools and Applications 2021]`** [**New bufferless rate control for high efficiency video coding**](https://link.springer.com/article/10.1007/s11042-021-11055-z) [CODE]()
+- **`[ACM MM 2021]`** [**Game theory-driven rate control for 360-degree video coding**](https://dl.acm.org/doi/10.1145/3474085.3475657) [CODE]()
+- **`[TIP 2021]`** [**Multi-Objective Optimization of Quality in VVC Rate Control for Low-Delay Video Coding**](https://ieeexplore.ieee.org/document/9405471) [CODE]()
+- **`[TCC 2021]`** [**Hybrid Distortion-Based Rate-Distortion Optimization and Rate Control for H.265/HEVC**](https://ieeexplore.ieee.org/abstract/document/9377475) [CODE]()
+- **`[DCC 2021]`** [**A Viewport-Adaptive Rate Control Approach for Omnidirectional Video Coding**](https://ieeexplore.ieee.org/abstract/document/9418788) [CODE]()
+- **`[DCC 2021]`** [**A Dual-Critic Reinforcement Learning Framework for Frame-Level Bit Allocation in HEVC/H.265**](https://ieeexplore.ieee.org/abstract/document/9418757) [CODE](http://mapl.nctu.edu.tw/RL_Rate_Control/)(The code page may be out of date, you can access the code by mail me [xiongweixiao@foxmail.com](xiongweixiao@foxmail.com.))
+- **`[ICME 2021]`** [**Machine learning-based rate distortion modeling for VVC/H.266 intra-frame**](https://ieeexplore.ieee.org/document/9428378) [CODE]()
+- **`[TCSVT 2021]`** [**Rate control for predictive transform screen content video coding based on RANSAC**](https://ieeexplore.ieee.org/document/9306869) [CODE]()
+- **`[TCSVT 2021]`** [**High Efficiency Rate Control for Versatile Video Coding Based on Composite Cauchy Distribution**](https://ieeexplore.ieee.org/document/9467266) [CODE]()
+- **`[TBC 2021]`** [**A Bit Allocation Method Based on Inter-View Dependency and Spatio-Temporal Correlation for Multi-View Texture Video Coding**](https://ieeexplore.ieee.org/abstract/document/9234533) [CODE]()
+
+- **`[TII 2021]`** [**Consistent Quality Oriented Rate Control in HEVC Via Balancing Intra and Inter Frame Coding**](https://ieeexplore.ieee.org/abstract/document/9428610) [CODE]()
+
+- **`[VCIP 2020]`** [**Neural Rate Control for Video Encoding using Imitation Learning**](https://arxiv.org/abs/2012.05339) [CODE]()
+- **`[TCSVT 2020]`** [**Global rate-distortion optimization-based rate control for HEVC HDR coding**](https://ieeexplore.ieee.org/document/8933031) [CODE]()
+- **`[TBC 2020]`** [**A novel rate control scheme for video coding in HEVC-SCC**](https://ieeexplore.ieee.org/document/8931257) [CODE]()
+- **`[TIP 2020]`** [**Rate Control for Video-Based Point Cloud Compression**](https://ieeexplore.ieee.org/document/9080532) [CODE]()
 - **`[TMM 2020]`** [**Rate Control Method Based on Deep Reinforcement Learning for Dynamic Video Sequences in HEVC**](https://doi.org/10.1109/TMM.2020.2992968) [CODE]()
+- **`[DCC 2020]`** [**A Rate Control Scheme for HEVC Intra Coding Using Convolution Neural Network (CNN)**](https://ieeexplore.ieee.org/document/9105692) [CODE]()
+- **`[ICIP 2020]`** [**Yoco: Light-Weight Rate Control Model Learning**](https://ieeexplore.ieee.org/document/9190880) [CODE]()
+- **`[ICASSP 2020]`** [**Intra Frame Rate Control for Versatile Video Coding with Quadratic Rate-Distortion Modelling**](https://ieeexplore.ieee.org/abstract/document/9054633) [CODE]()
+- **`[Multimedia Tools and Applications 2020]`** [**FJND-based fuzzy rate control of scalable video for streaming applications**](https://link.springer.com/article/10.1007/s11042-019-08563-4) [CODE]()
+
+- **`[TBC 2019]`** [**Data-driven rate control for rate-distortion optimization in HEVC based on simplified effective initial QP learning**](https://ieeexplore.ieee.org/document/8456843) [CODE]()
+- **`[TIP 2019]`** [**Optimize x265 rate control: An exploration of lookahead in frame bit allocation and slice type decision**](https://ieeexplore.ieee.org/document/8579235) [CODE]()
+- **`[PCS 2019]`** [**Predicting Rate Control Target Through A Learning Based Content Adaptive Model**](https://ieeexplore.ieee.org/document/8954541) [CODE]()
+
 
 ### Complexity Control
+- **`[JVCIP 2024]`** [**Exploring the rate-distortion-complexity optimization in neural image compression☆**](https://www.sciencedirect.com/science/article/abs/pii/S1047320324002505) [CODE]()
 - **`[VCIP 2024]`** [**Fast Machine Learning Aided Intra Mode Decision for Real-Time VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10849874) [CODE]()
 - **`[SPL 2024]`** [**VVC Intra Coding Complexity Optimization Based on Early Skipping of the Secondary Transform**](https://ieeexplore.ieee.org/abstract/document/10382653) [CODE]()
 - **`[PCS 2022]`** [**Performance-Complexity Analysis of Adaptive Loop Filter with a CNN-based Classification**](https://ieeexplore.ieee.org/abstract/document/10018032) [CODE]()
-
-
 - **`[IEEE Open Journal of Circuits and Systems 2021]`** [**AV1 and VVC Video Codecs: Overview on Complexity Reduction and Hardware Design**](https://ieeexplore.ieee.org/abstract/document/9536216) [CODE]()
 - **`[TCSVT 2021]`** [**VVC Complexity and Software Implementation Analysis**](https://ieeexplore.ieee.org/abstract/document/9399488) [CODE]()
 - **`[ICIP 2020]`** [**Complexity Analysis Of Next-Generation VVC Encoding And Decoding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
+- **`[TIP 2020]`** [**Accelerate CTU Partition to Real Time for HEVC Encoding With Complexity Control**](https://ieeexplore.ieee.org/document/9126122) [CODE]()
 
 ### Datasets
 
