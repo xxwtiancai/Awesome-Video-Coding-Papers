@@ -5,6 +5,9 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 > 📚✍️ Contributions welcome! Submit a PR to add papers/datasets/tools.  
 > *Let's build a comprehensive resource together!* 🚀  
 
+> [!TIP!TIP]  
+> 📚✍️ All original paper files and code files are available upon request. 
+> Please feel free to email me at xiongweixiao@foxmail.com, and I will reply within 24 hours.
 ---
 
 ## Table of Contents
@@ -406,14 +409,45 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 
 
 ### Complexity Control
+- **`[TBC 2024]`** [**An Efficient and Flexible Complexity Control Method for Versatile Video Coding**](https://ieeexplore.ieee.org/document/10717873) [CODE]()
+- **`[TBC 2024]`** [**Fast Mode and CU Splitting Decision for Intra Prediction in VVC SCC**](https://ieeexplore.ieee.org/document/10528669) [CODE]()
+- **`[TBC 2024]`** [**Learning-Based Efficient Quantizer Selection for Fast HEVC Encoder**](https://ieeexplore.ieee.org/document/10365697) [CODE]()
 - **`[JVCIP 2024]`** [**Exploring the rate-distortion-complexity optimization in neural image compression☆**](https://www.sciencedirect.com/science/article/abs/pii/S1047320324002505) [CODE]()
 - **`[VCIP 2024]`** [**Fast Machine Learning Aided Intra Mode Decision for Real-Time VVC Intra Coding**](https://ieeexplore.ieee.org/abstract/document/10849874) [CODE]()
 - **`[SPL 2024]`** [**VVC Intra Coding Complexity Optimization Based on Early Skipping of the Secondary Transform**](https://ieeexplore.ieee.org/abstract/document/10382653) [CODE]()
+- **`[TBC 2023]`** [**Precise Encoding Complexity Control for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/9829846) [CODE]()
+- **`[TBC 2023]`** [**Complexity-Efficient Dependent Quantization for Versatile Video Coding**](https://ieeexplore.ieee.org/abstract/document/10093119) [CODE]()
+- **`[TCSVT 2023]`** [**Learning-Based Early Transform Skip Mode Decision for VVC Screen Content Coding**](https://ieeexplore.ieee.org/abstract/document/10068735) [CODE]()
 - **`[PCS 2022]`** [**Performance-Complexity Analysis of Adaptive Loop Filter with a CNN-based Classification**](https://ieeexplore.ieee.org/abstract/document/10018032) [CODE]()
+- **`[TCSVT 2022]`** [**Configurable Fast Block Partitioning for VVC Intra Coding Using Light Gradient Boosting Machine**](https://ieeexplore.ieee.org/document/9524713) [CODE]()
+- **`[ISCAS 2022]`** [**Intra encoding complexity control with a time-cost model for versatile video coding**](https://ieeexplore.ieee.org/document/9937658) [CODE]()
+- **`[ISCAS 2022]`** [**Fast Affine Motion Estimation for VVC using Machine-Learning-Based Early Search Termination**](https://ieeexplore.ieee.org/document/9937973) [CODE]()
+
+- **`[ICIP 2022]`** [**CNN-Based Fast CU Partitioning Algorithm for VVC Intra Coding**](https://ieeexplore.ieee.org/document/9897378) [CODE]()
+
 - **`[IEEE Open Journal of Circuits and Systems 2021]`** [**AV1 and VVC Video Codecs: Overview on Complexity Reduction and Hardware Design**](https://ieeexplore.ieee.org/abstract/document/9536216) [CODE]()
+- **`[SPIC 2021]`** [**SVM based approach for complexity control of HEVC intra coding**](https://doi.org/10.1016/j.image.2021.116177) [CODE]()
+- **`[TBC 2021]`** [**Early intra CU size decision for versatile video coding based on a tunable decision model**](https://ieeexplore.ieee.org/document/9410290) [CODE]()
+- **`[ISCAS 2021]`** [**SVM based fast cu partitioning algorithm for VVC intra coding**](https://ieeexplore.ieee.org/abstract/document/9399488) [CODE]()
 - **`[TCSVT 2021]`** [**VVC Complexity and Software Implementation Analysis**](https://ieeexplore.ieee.org/abstract/document/9399488) [CODE]()
+- **`[TCSVT 2021]`** [**Fast DST-VII/DCT-VIII with dual implementation support for versatile video coding**](https://ieeexplore.ieee.org/document/9018012) [CODE]()
+- **`[TCSVT 2021]`** [**Modeling acceleration properties for flexible INTRA HEVC complexity control**](https://ieeexplore.ieee.org/document/9333584) [CODE]()
 - **`[ICIP 2020]`** [**Complexity Analysis Of Next-Generation VVC Encoding And Decoding**](https://ieeexplore.ieee.org/abstract/document/9190983) [CODE]()
 - **`[TIP 2020]`** [**Accelerate CTU Partition to Real Time for HEVC Encoding With Complexity Control**](https://ieeexplore.ieee.org/document/9126122) [CODE]()
+- **`[TCSVT 2020]`** [**Low-complexity CTU partition structure decision and fast intra mode decision for versatile video coding**](https://ieeexplore.ieee.org/document/8664144) [CODE]()
+- **`[TIP 2020]`** [**Online learning-based multi-stage complexity control for live video coding**](https://ieeexplore.ieee.org/document/9259230) [CODE]()
+- **`[MMSP 2019]`** [**Complexity reduction opportunities in the future VVC intra encoder**](https://ieeexplore.ieee.org/document/8901754) [CODE]()
+- **`[TIP 2019]`** [**Complexity control in the HEVC intracoding for industrial video applications**](https://ieeexplore.ieee.org/document/8372240) [CODE]()
+- **`[TIP 2019]`** [**Tunable VVC frame partitioning based on lightweight machine learning**](https://ieeexplore.ieee.org/document/8826595) [CODE]()
+- **`[ICME 2019]`** [**Two-stage fast multiple transform selection algorithm for VVC intra coding**](https://ieeexplore.ieee.org/document/8784824) [CODE]()
+- **`[ICIP 2019]`** [**Fast partitioning decision strategies for the upcoming versatile video coding (VVC) standard**](https://ieeexplore.ieee.org/document/8803533) [CODE]()
+- **`[TMM 2019]`** [**CTU-level complexity control for high efficiency video coding**](https://ieeexplore.ieee.org/document/7967832) [CODE]()
+- **`[JRTIP 2017]`** [**Complexity control of HEVC encoders targeting real-time constraints**](https://doi.org/10.1007/s11554-016-0602-2) [CODE]()
+
+- **`[TCSVT 2016]`** [**Pareto-based method for high efficiency video coding with limited encoding time**](https://ieeexplore.ieee.org/document/7208812) [CODE]()
+- **`[TCSVT 2016]`** [**Subjective-driven complexity control approach for HEVC**](https://ieeexplore.ieee.org/document/7226814) [CODE]()
+- **`[ACCESS 2016]`** [**Hierarchical complexity control of HEVC for live video encoding**](https://ieeexplore.ieee.org/document/7574356) [CODE]()
+- **`[TMM 2016]`** [**Complexity control based on a fast coding unit decision method in the HEVC video coding standard**](https://ieeexplore.ieee.org/document/7398085) [CODE]()
 
 ### Datasets
 
