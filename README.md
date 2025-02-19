@@ -5,7 +5,7 @@ A curated list of neural network-based video/image coding papers, datasets, and 
 > 📚✍️ Contributions welcome! Submit a PR to add papers/datasets/tools.  
 > *Let's build a comprehensive resource together!* 🚀  
 
-> [!TIP!TIP]  
+> [!TIP] [!TIP]  
 > 📚✍️ All original paper files and code files are available upon request. 
 > Please feel free to email me at xiongweixiao@foxmail.com, and I will reply within 24 hours.
 ---
